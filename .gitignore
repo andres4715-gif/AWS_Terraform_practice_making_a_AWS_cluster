@@ -1,0 +1,39 @@
+# Archivos de estado de Terraform
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform.tfstate.lock.info
+
+# Directorio de módulos y plugins de Terraform
+.terraform/
+
+# Archivos de plan de Terraform
+*.tfplan
+terraform.tfplan
+
+# Archivos de variables locales que puedan contener información sensible
+*.tfvars
+*.tfvars.json
+
+# Archivos de configuración locales
+.terraformrc
+terraform.rc
+
+# Archivos de logs
+*.log
+
+# Archivos de credenciales y configuración de AWS
+.aws/
+aws.credentials
+credentials.json
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Directorios y archivos de IDE/editor
+.idea/
+.vscode/
+*.swp
+*.swo
+.env
